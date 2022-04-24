@@ -26,17 +26,29 @@ Opening Cypress by running the following command:
 - ./node_modules/.bin/cypress open
 
 set the environment for url, username and passsword in cypress.json file
+
 {
+    
     "env": {
-        "baseUrl": "https://the-internet.herokuapp.com/login",
-        "user": {
-            "email": "tomsmith",
-            "password": "SuperSecretPassword!"
-      }
+    
+    "baseUrl": "https://the-internet.herokuapp.com/login",
+    
+    "user": {
+    
+    "email": "tomsmith",
+    
+    "password": "SuperSecretPassword!"
+    
+    }
+    
     },
+    
     "viewportHeight": 1000,
+    
     "viewportWidth": 1000
+
 }
+
 
 View login-spec.js, where three scenarios are tested for the app and scenarios are described as follows:
 - Login Scenario with wrong credentials
