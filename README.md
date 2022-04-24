@@ -65,36 +65,54 @@ Install Cypress visual testing on Visual Studio code terminal:
 - Add also the following config to your cypress.json file:
 
     {
+        
         "screenshotsFolder": "cypress/snapshots/actual",
+        
         "trashAssetsBeforeRuns": true,
+        
     }
 
 - Add the plugin to cypress/plugins/index.js:
 
+    
     const getCompareSnapshotsPlugin = require('cypress-visual-regression/dist/plugin');
 
     module.exports = (on, config) => {
+    
     getCompareSnapshotsPlugin(on, config);
+    
     };
+    
 
 - And add the command to cypress/support/commands.js:
 
+    
     const compareSnapshotCommand = require('cypress-visual-regression/dist/command');
 
+    
     compareSnapshotCommand();
     
 - Once the configuration is ready, we can add our visual testing checkpoints into our existing cypress tests, let’s see how:
 
     describe('Cypress Automation Demo', () => {
+    
     beforeEach(() => {
+    
       //open baseUrl before each test we run
       cy.visit(Cypress.env('baseUrl'))
+      
       // we are not logged in
+      
      ** cy.compareSnapshot('Home Page', {
+     
         capture: 'fullPage',
+        
         errorThreshold: 0.0
+        
       });**
+      
     })
+    
     
 The visual regression testing will validate zero difference between the base and the actual image comparison. To run basic comparisons, we need to have a baseline image; let’s explore that by running the following command in terminal:
 
