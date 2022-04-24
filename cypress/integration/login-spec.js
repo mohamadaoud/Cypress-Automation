@@ -3,6 +3,10 @@ describe('Cypress Automation Demo', () => {
       //open baseUrl before each test we run
       cy.visit(Cypress.env('baseUrl'))
       // we are not logged in
+      cy.compareSnapshot('Home Page', {
+        capture: 'fullPage',
+        errorThreshold: 0.0
+      });
     })
 
     it('Login Scenario with wrong credentials', () => {
