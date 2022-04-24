@@ -4,17 +4,17 @@ An automated regression suite for the login component of the app using the follo
 # Cypress-automation-login-tests
 Tests are in the folder cypress/integration
 
-login-spec.js shows successful and unsuccessful login via user interface using correct and wrong credentials
+login-spec.js shows successful and unsuccessful login scenarios via user interface using correct and wrong credentials
 
 # Environment
 Using Windows 7 and above (64-bit only)
 
 # Test-setup
-Install the following:
-Nodejs
-npm
-Visual Studio Code
-Cypress
+* Install the following:
+* Nodejs
+* npm
+* Visual Studio Code
+* Cypress
 
 Once you installed Nodejs and Visual Studio Code; 
 Open Visual Studio Code, run the following command: npm init (set up a new or existing npm package)
@@ -45,5 +45,3 @@ Login Scenario with correct credentials
 Login and Logout Scenarios
 
 And that's all folks!
-
-
