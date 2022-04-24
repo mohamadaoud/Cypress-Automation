@@ -10,14 +10,13 @@ login-spec.js shows successful and unsuccessful login scenarios via user interfa
 Using Windows 7 and above (64-bit only)
 
 # Test-setup
-* Install the following:
 * Nodejs
 * npm
 * Visual Studio Code
 * Cypress
 
 Once you installed Nodejs and Visual Studio Code; 
-Open Visual Studio Code, run the following command: npm init (set up a new or existing npm package)
+- Open Visual Studio Code, run the following command: npm init (set up a new or existing npm package)
 
 Install Cypress via npm by running the following commands:
 cd /your/project/path
