@@ -61,7 +61,7 @@ View login-spec.js, where three scenarios are tested for the app and scenarios a
 
 Install Cypress visual testing on Visual Studio code terminal:
 - npm install cypress-visual-testing
-- 
+
 - Add also the following config to your cypress.json file:
 
     {
