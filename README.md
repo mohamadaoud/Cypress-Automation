@@ -1,5 +1,5 @@
 # Cypress-automation
-An automated regression suite for the login component of the app using the following link: https://the-internet.herokuapp.com/login
+An automated regression suite for the login component of an app using the following link: https://the-internet.herokuapp.com/login
 
 # Cypress-automation-login-tests
 Tests are in the folder cypress/integration
