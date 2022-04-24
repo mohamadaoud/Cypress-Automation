@@ -19,11 +19,11 @@ Once you installed Nodejs and Visual Studio Code;
 - Open Visual Studio Code, run the following command: npm init (set up a new or existing npm package)
 
 Install Cypress via npm by running the following commands:
-cd /your/project/path
-npm install cypress --save-dev
+- cd /your/project/path
+- npm install cypress --save-dev
 
 Opening Cypress by running the following command:
-./node_modules/.bin/cypress open
+- ./node_modules/.bin/cypress open
 
 set the environment for url, username and passsword in cypress.json file
 {
@@ -39,8 +39,8 @@ set the environment for url, username and passsword in cypress.json file
 }
 
 View login-spec.js, where three scenarios are tested for the app and scenarios are described as follows:
-Login Scenario with wrong credentials
-Login Scenario with correct credentials
-Login and Logout Scenarios
+- Login Scenario with wrong credentials
+- Login Scenario with correct credentials
+- Login and Logout Scenarios
 
 And that's all folks!
