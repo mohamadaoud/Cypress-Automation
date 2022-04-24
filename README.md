@@ -50,9 +50,13 @@ set the environment for url, username and passsword in cypress.json file
 }
 
 
+
 View login-spec.js, where three scenarios are tested for the app and scenarios are described as follows:
 - Login Scenario with wrong credentials
 - Login Scenario with correct credentials
 - Login and Logout Scenarios
 
 And that's all folks!
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
