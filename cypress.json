@@ -1,0 +1,11 @@
+{
+    "env": {
+        "baseUrl": "https://the-internet.herokuapp.com/login",
+        "user": {
+            "email": "tomsmith",
+            "password": "SuperSecretPassword!"
+      }
+    },
+    "viewportHeight": 1000,
+    "viewportWidth": 1000
+  }
