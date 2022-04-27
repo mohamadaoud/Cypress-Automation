@@ -1,4 +1,4 @@
-describe('Cypress Automation Demo', () => {
+describe('Cypress Automation Regression Demo', () => {
     beforeEach(() => {
       //open baseUrl before each test we run
       cy.visit(Cypress.env('baseUrl'))
